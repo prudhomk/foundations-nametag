@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+ }
+
+.sticker {
+    background-color:gray;
+    width: 420px;
+    padding: 5px;
+    margin-top: 3px;
+    position: relative;
+}
+
+.nametag {
+    margin:auto;
+    align-content: center;
+    border-radius: 25px;
+}
+
+.nametag-header {
+    background-color: red;
+    color:white;
+    border-radius: 5px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 35px;
+    height: 120px;
+    width: 400px;
+    overflow: auto;
+}
+
+.hello {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    font-style: bold;
+}
+
+.name {
+    background-color: white;
+    color: black;
+    font-family: cursive;
+    font-style: bold;
+    height: 50px;
+    width: 400px;
+    font-size: 1rem;
+    text-align: center;
+    align-self: center;
+    padding: 10px;
+}
+
+.tag-footer {
+    background-color: red;
+    border-radius: 5px;
+    height: 20px;
+    width: 400px;
+}
+
+
+
+h1 {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+}
