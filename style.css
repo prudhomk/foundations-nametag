@@ -4,15 +4,8 @@
 
 body {
     display: grid;
+    background-color:lightblue
  }
-
-.sticker {
-    background-color:gray;
-    width: 420px;
-    padding: 5px;
-    margin-top: 3px;
-    position: relative;
-}
 
 .nametag {
     margin:auto;
@@ -26,7 +19,7 @@ body {
     border-radius: 5px;
     text-align: center;
     font-family: sans-serif;
-    font-size: 35px;
+    font-size: 20px;
     height: 120px;
     width: 400px;
     overflow: auto;
@@ -34,7 +27,7 @@ body {
 
 .hello {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 50px;
+    font-size: 75px;
     font-style: bold;
 }
 
@@ -45,7 +38,7 @@ body {
     font-style: bold;
     height: 50px;
     width: 400px;
-    font-size: 1rem;
+    font-size: 20px;
     text-align: center;
     align-self: center;
     padding: 10px;
@@ -58,12 +51,43 @@ body {
     width: 400px;
 }
 
+.sidebar {
+    border-radius: 2px;
+    background-color: rgb(20, 61, 198);
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    border-style: bold;
+    height: 100%;
+    width: 200px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 
+}
 
 h1 {
     text-align: center;
 }
 
 .footer {
+    margin-top: 2px;
     text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.img {
+    justify-content: center;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+.video {
+    justify-content: center;
+    justify-content: center;
+    margin-left: 300px;
+    margin-top: 20px;
 }
